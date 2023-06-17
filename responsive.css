@@ -1,0 +1,25 @@
+@media screen and (max-width:480px){
+    .input-txt{
+        width:55%;
+        margin: 0 0.6rem;
+    }
+    
+}
+
+@media screen and (min-width:481px){
+    .btn{
+        cursor:pointer;
+    }
+
+    .bin{
+        color:white;
+        transition:color 0.2s ease-in-out;
+    }
+
+    li:hover .bin{
+        color: #474b52;
+        cursor:pointer;
+    }
+
+    
+}
